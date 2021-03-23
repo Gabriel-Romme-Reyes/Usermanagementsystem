@@ -139,9 +139,9 @@ public class UserManagementSystem {
 		while(CivilString(civil).equals("undefined")) {
 			System.out.println("Please choose from (M/S/D/W)");
 			civil = command.next().charAt(0);
-			text = command.nextLine();
 
 		}
+		text = command.nextLine();
 		civilstatlist.set(b,CivilString(civil));
 		}catch(Exception e) {
 			tryagain();
